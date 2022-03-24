@@ -15,7 +15,7 @@ function App() {
       <About image={blogData.image} alt={blogData.alt} about={blogData.about}>
         {Children}
       </About>
-      <ArticleList articles={blogData.posts} />
+      <ArticleList posts={blogData.posts} />
     </div>
   );
 }
